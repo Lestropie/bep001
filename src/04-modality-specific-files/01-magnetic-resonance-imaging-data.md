@@ -314,7 +314,7 @@ sub-01_echo-1_acq-T1w_MPM.json
 Some parametrically linked anatomical images involve both magnitude and phase  
 reconstructed images in the calculation of a parameter map. In that case, the 
 filename MUST make use of this key/value pair to distinguish between them. 
-Phase images SHOULD be in radians and have a range of (0, 2 pi]
+Phase images SHOULD be in radians and have a range of `[0, 2 pi)`
 (including 0, excluding 2 pi).
 The `part-<mag/phase>` key/value pair is associated with the DICOM tag 0008,0008
 `Image Type`.
