@@ -347,6 +347,9 @@ sub-01_inv-2_part-phase_MP2RAGE.nii.gz
 sub-01_inv-2_MP2RAGE.json
 ```
 
+If a file name does NOT include a `part-<mag/phase>` key/value pair, it can be 
+assumed that the corresponding files contains magnitude images.
+
 ### Task (including resting state) imaging data
 
 Currently supported image contrasts include:
